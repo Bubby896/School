@@ -1,0 +1,22 @@
+public class FlowControl {
+
+   public static void main(String[] args){
+    String odd;
+    String even;
+    Integer number;
+
+    odd = "ODD";
+    even = "EVEN";
+    number = 1;
+
+    for (int i = 0; i < 100; i++) {
+        if(number%2 == 0){
+            System.out.println(number+"     "+even);
+        }
+        else {
+            System.out.println(number+"     "+odd);
+        }
+        number++;
+    }
+   }
+}
