@@ -10,9 +10,5 @@ public bowlingBall(String ballColor, int ballWeight, int ballSize){ //The bowlin
     ballSize = size;  // Assigns the size of the ball to ballSize that was sent in the constructor
 
 }
-public String toString(){
-    return color + " " + size + " " + weight;
-}
-
 
 }
