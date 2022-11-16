@@ -11,7 +11,6 @@ public bowlingBall(String ballColor, int ballWeight, int ballSize){ //The bowlin
 
 }
 
-
 public String toString(){
     return color + " " + size + " cm " + weight + " lb";
 }
@@ -20,10 +19,14 @@ public static void main(String[] args){
     bowlingBall Ball1 = new bowlingBall("Blue", 12, 16);  //This creates a blue bowling ball
     bowlingBall Ball2 = new bowlingBall("Grey", 8, 16);  //This creates a grey bowling ball
     bowlingBall Ball3 = new bowlingBall("Orange", 15, 16);  //This creates an orange bowling ball
+    bowlingBallPersonal Ball4 = new bowlingBallPersonal("Lil Jimmy", "Jim");
+    bowlingBallKids Ball5 = new bowlingBallKids("Green", 15, 16);
 
     System.out.println(Ball1); //This prints out the information of the blue bowling ball
     System.out.println(Ball2); //This prints out the information of the grey bowling ball
     System.out.println(Ball3); //This prints out the information of the orange bowling ball
+    System.out.println(Ball4);
+    System.out.println(Ball5);
     }
 
-} 
+}  
