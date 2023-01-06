@@ -1,0 +1,14 @@
+public class bowlingBall {
+    String color;  //Color of the bowling ball
+    int weight;  //Weight of the bowling ball
+    int size;  //Size of the bowling ball
+
+public bowlingBall(String ballColor, int ballWeight, int ballSize){ //The bowlingBall constructor needs the balls color, weight, and size
+
+    ballColor = color;  // Assigns the color of the ball to ballColor that was sent in the constructor
+    ballWeight = weight;  // Assigns the weight of the ball to ballWeight that was sent in the constructor
+    ballSize = size;  // Assigns the size of the ball to ballSize that was sent in the constructor
+
+}
+
+}

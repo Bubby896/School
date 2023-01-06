@@ -1,0 +1,27 @@
+//This is a flow control program. It prints out numbers 1-100 and whether they're even or odd. It was created by Hiram Silva
+public class FlowControl {
+
+   public static void main(String[] args){
+   
+  //This is declaring the needed variables
+    String odd;
+    String even;
+    Integer number;
+
+  //This assigns the variables values
+    odd = "ODD";
+    even = "EVEN";
+    number = 1;
+
+  //This loop prints out the numbers and whether they're odd or even
+    for (int i = 0; i < 100; i++) {
+        if(number%2 == 0){
+            System.out.println(number+"     "+even);
+        }
+        else {
+            System.out.println(number+"     "+odd);
+        }
+        number++;
+    }
+   }
+}
